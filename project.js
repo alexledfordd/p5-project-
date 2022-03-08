@@ -49,9 +49,6 @@ timer = millis();
 
 function draw(){
 
-  textSize(30)
-    text("Time: "+ score + "00", windowWidth/12,50)
-
 
   if(millis() - timer >= 20000){
     timer = millis()
